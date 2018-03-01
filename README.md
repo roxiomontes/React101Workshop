@@ -23,13 +23,13 @@ This hands-on workshop includes the following exercises:
 - [Exercise 7: Use of Lifecycle Methods](#Exercise7)
 - [Exercise 8: Connect to a REST service](#Exercise8)
 
-As we move throught the workshop you will find an "Starting Point" project and a "Finishing Point" project for each exercise. These projects will allow you to quickly get caught up with the workshop if you run into any issues during an exercise. For example, if you encounter an issue with your code during exercise 3 and the workshop moves on to exercise 4. You will be able to use exercise 4 "Starting Point" project to continue on with the workshop and overcome the issues with your previous code.
+As we move throught the workshop you will find an "Starting Point" project for each exercise. These projects will allow you to quickly get caught up with the workshop if you run into any issues during an exercise. For example, if you encounter an issue with your code during exercise 3 and the workshop moves on to exercise 4. You will be able to use exercise 4 "Starting Point" project to continue on with the workshop and overcome the issues with your previous code.
 
 <a name="Exercise1"></a>
 ## Exercise 1: Create your first React component ##
 Instead of starting from scratch, you will use a codesandbox.io project that we have created for you. This project will provide you the neccesary structure to start coding right away!  In this exercise you will create your first react components.
 
-Starting Point: https://codesandbox.io/s/0y2vm4mmvw
+Starting point: https://codesandbox.io/s/0y2vm4mmvw
 
 1. Open the Starting Point project, you will see html code for a simple web page. On the the index.js file change the title to "Hello San Diego JS" by editing the text on the h1 tag. You will see that a save button appears on the top menu bar, click it to save the project to your own profile. 
 1. We will start by turning the title, h1 tag, into its own react component. On the left hand panel, click on the "src" folder and then click on the "New File" icon that appers on the menu right hand side to create the "header.js" file.
@@ -100,6 +100,8 @@ Starting Point: https://codesandbox.io/s/0y2vm4mmvw
       You now have a working application with 2 react components.
 <a name="Exercise2"></a> 
 ## Exercise 2: Pass custom data to a component using props ##
+Starting point: https://codesandbox.io/s/481vm60p94
+
 1. In this exercise we will see how components can dynamically render different outcomes based on data passed into it. We will start by creating a portfolio component to show all the data of our bitcoin earnigs.
     Hover over the "src" folder and create a new "portfolio" folder by clicking on the "New Folder" icon on the right hand menu. Inside the "portfolio" folder, create a file called "index.js". Add the following code to create a portfolio component that will get the first 2 elements of the "data.js" file which contains the price points for bitcoin over time. We will use this component to display the data in the app.
     ```javascript
@@ -158,6 +160,7 @@ Starting Point: https://codesandbox.io/s/0y2vm4mmvw
     ```
 <a name="Exercise3"></a>
 ## Exercise 3: Create multiple components ##
+Starting point: https://codesandbox.io/s/xpyx0k4llz
 1. In this exercise we will see how to completely hide or show a component based on a prop. We will use all the elements on the data.js file and render the price component based on that data. 
     ```javascript
     import React from "react";
@@ -178,6 +181,8 @@ Starting Point: https://codesandbox.io/s/0y2vm4mmvw
     ```
 <a name="Exercise4"></a>
 ## Exercise 4: Use State to manage how your component renders & behaves ##
+Starting point: https://codesandbox.io/s/14x5xnq1z3
+
 1. We will create a profitLoss.js component that recieves props from the portfolio component, create a new file named "profitLoss.js" inside the portfolio folder and add the following code:
     ```javascript
     import React from "react";
@@ -242,6 +247,8 @@ Starting Point: https://codesandbox.io/s/0y2vm4mmvw
     ```
 <a name="Exercise5"></a>
 ## Exercise 5: Use controlled components in React ##
+Starting point: https://codesandbox.io/s/oj6rlw9y3y
+
 1. We will add an input box to be able to enter the amount of bitcoins we have. To do this, let's add an input tag element and a handleChange event.
     ```javascript
     export class Portfolio extends React.Component {
@@ -282,6 +289,8 @@ Starting Point: https://codesandbox.io/s/0y2vm4mmvw
     ```
 <a name="Exercise6"></a>
 ## Exercise 6: Use Open Source Components ##
+Starting point: https://codesandbox.io/s/ko60ryoj25
+
 1. In this exercise we will discover how to use an open source component, the react-linechart. First, we need to prepare the data to send to the new component, in order to do that we will change the way we map the data for bitcoin prices on the portfolio/index.js
     ```javascript
     render() {
@@ -325,6 +334,8 @@ Starting Point: https://codesandbox.io/s/0y2vm4mmvw
     ```
 <a name="Exercise7"></a>
 ## Exercise 7: Use of Lifecycle Methods ##
+Starting point: https://codesandbox.io/s/6l34rvw5ln
+
 1. Along with render, React Components also have lifecycle hooks where you can define some action to happen. Let's add the following code to see first hand how the componentDidMount and the componentDidUpdate methods work
     ```javascript
     export class Portfolio extends React.Component {
@@ -343,6 +354,8 @@ Starting Point: https://codesandbox.io/s/0y2vm4mmvw
     ```
 <a name="Exercise8"></a>
 ## Exercise 8: Connect to a REST service ##
+Starting point: https://codesandbox.io/s/x7xypj8874
+
 1. On this exercise, we will connect to rest service , this will happen on the componentDidMount method
     ```javascript
     ...
