@@ -1,0 +1,21 @@
+{
+  "name": "exercise-8-connect-to-rest-service",
+  "version": "1.0.0",
+  "description": "Introduction to React and Components",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-linechart": "1.1.12",
+    "react-scripts": "1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
