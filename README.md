@@ -495,10 +495,17 @@ React Components have lifecycle hooks beyond just the render method. Lifecycle h
 ## Exercise 8: Connect to a REST service ##
 **Starting point**: https://codesandbox.io/s/x7xypj8874
 
-1. Using everything that's been built so far, connect the app to a REST service. This will show how the app is _reactive_ to data. In the `componentDidMount` method, call the API and store it's data:
+1. Using everything that's been built so far, connect the app to a REST service. This will show how the app is _reactive_ to data. Update the state and the `componentDidMount` method, call the API and store it's data:
+
     ```javascript
     // src/portfolio/index.js
     ...
+    state = {
+    numBitcoins: 4,
+    data: [],
+    startingPrice: 0
+    };
+    
     componentDidMount() {
         fetch("https://api.cryptonator.com/api/ticker/btc-usd")
           .then(res => {
