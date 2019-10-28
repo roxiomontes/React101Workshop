@@ -9,6 +9,8 @@ In this hands-on workshop, you will learn how to:
 
 ### Resources ###
 
+We will be using the following resources
+
 #### codesandbox.io
 
 We will use [https://codesandbox.io](https://codesandbox.io) to code this workshop without the need of any software or library installations.
