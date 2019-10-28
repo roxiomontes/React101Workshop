@@ -1,4 +1,5 @@
 # React 101 Workshop #
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 * * *
 ### Goals ###
 In this hands-on workshop, you will learn how to:
@@ -560,3 +561,19 @@ React Components have lifecycle hooks beyond just the render method. Lifecycle h
 
     ![Using Rest API ](images/Use-of-API.png)
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/rmontes"><img src="https://avatars3.githubusercontent.com/u/74463?v=4" width="100px;" alt="rmontes"/><br /><sub><b>rmontes</b></sub></a><br /><a href="https://github.com/roxiomontes/React101Workshop/commits?author=rmontes" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
